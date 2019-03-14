@@ -14,7 +14,7 @@ $(function() {
         data: newEatState
       }).then(
         function() {
-          console.log("changed sleep to", newEat);
+          console.log("changed eat to", newEat);
           // Reload the page to get the updated list
           location.reload();
         }
@@ -25,15 +25,15 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var newCat = {
+      var newBurger = {
         name: $("#bu").val().trim(),
-        sleepy: $("[name=devoured]:checked").val().trim()
+        devoured: $("[name=devoured]:checked").val().trim()
       };
   
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
-        data: newCat
+        data: newBurger
       }).then(
         function() {
           console.log("created new burger");
