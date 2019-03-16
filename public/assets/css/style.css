@@ -1,25 +1,55 @@
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  background-color: green;
+  padding: 20px;
+  width: 1250px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+.eat {
+  width: 405px;
+background-color: brown;
+}
+.eaten {
+  width: 405px;
+  background-color: brown;
+}
+.bun {
+  margin-left: 450px;
+  border-radius: 25px;
+  width: 405px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: gold;
+}
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  
-  .form-group {
-    
-    margin-bottom: 5px;
-  }
-  
-  body {
-    background-color: lightgoldenrodyellow;
-  }
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  background: rgb(255, 153, 0);
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
